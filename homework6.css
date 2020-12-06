@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.block-content-adaptation{
+    width: 100%;
+    height: 700px;
+}
+
+.block-content-adaptation  .block-main-adaptation{
+    width: 100%;
+    height: 700px;
+}
+
+.block-content-adaptation .block-main-adaptation.block-first-size-adaptation{
+    background: rgb(0, 0, 0);
+    clip-path: polygon(0 0, 70% 0, 40% 100%, 0 100%);
+}
+
+
+
+.block-content-adaptation .block-main-adaptation{  
+   position: absolute;
+   width: 100%;
+   height: 700px;
+   
+}
+
+
+.block-content-adaptation .block-main-adaptation.block-second-size-adaptation{ 
+    clip-path: polygon(100% 0, 70% 0, 40% 100%, 100% 100%);
+    transition: 0.5s;
+}
+
+
+
+
+.block-second-size-foto-adaptation{
+    background-image: url(https://thumbs.dfs.ivi.ru/storage28/contents/a/3/fd687dd61d994c7c909f836b73fb25.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+
+.block-first-title{
+    margin-left: 200px;
+    margin-top: 300px;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-family: 'Lato', sans-serif;
+}
+
+.title-online{
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+}
+
+.block-products{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-products-movie{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.products-film{
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    background-color: royalblue;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+}
+
+.products-title-film{
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    margin-top:  300px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: rgb(218, 91, 91);
+    width: 180px;
+    height: 35px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
